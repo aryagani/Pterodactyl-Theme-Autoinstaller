@@ -66,7 +66,7 @@ check_token() {
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Token Salah! Beli Kode Token Di AG STORE${NC}"
-    echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
+    echo -e "${YELLOW}TELEGRAM : @agstore_id${NC}"
     echo -e "${YELLOW}WHATSAPP : 6283823179758${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}© agstore${NC}"
@@ -92,15 +92,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/aryagani/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/aryagani/Pterodactyl-Theme-Autoinstaller/raw/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/aryagani/Pterodactyl-Theme-Autoinstaller/raw/main/enigma.zip")
         break
         ;; 
       x)
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/VallzHost/installer-theme/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/aryagani/installer-theme/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -453,11 +453,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Skyzopedia   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer agstore   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : Skyzopedia      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : Skyzopedia  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Skyzopedia  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : agstore      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : agstore  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by agstore  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
