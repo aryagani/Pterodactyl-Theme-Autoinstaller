@@ -20,10 +20,10 @@ display_welcome() {
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "Dilarang Keras Share Bebas."
   echo -e ""
-  echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@skyzodev"
+  echo -e "WHATSAPP :"
+  echo -e "6283823179758"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@skyzopedia"
+  echo -e "@agstore"
   sleep 4
   clear
 }
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "skyzodev" ]; then
+  if [ "$USER_TOKEN" = "agstore" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
+    echo -e "${GREEN}Token Salah! Beli Kode Token Di AG STORE${NC}"
     echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
-    echo -e "${YELLOW}WHATSAPP : +6285624297893${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© Skyzopedia${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6283823179758${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}© agstore${NC}"
     exit 1
   fi
   clear
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/aryagani/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
 
 
 # Ekstrak file tema
